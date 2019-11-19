@@ -1,4 +1,4 @@
-package guru.services;
+package guru.springframework.demo.services;
 
 /**
  * Author: Hosanna Gabe-Oji.
