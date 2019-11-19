@@ -1,6 +1,6 @@
 package guru.springframework.demo.controllers;
 
-import guru.springframework.demo.services.GreetingService;
+import guru.services.GreetingService;
 import org.springframework.stereotype.Controller;
 
 /**

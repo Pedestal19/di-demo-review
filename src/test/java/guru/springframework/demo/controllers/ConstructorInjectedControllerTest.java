@@ -1,6 +1,6 @@
 package guru.springframework.demo.controllers;
 
-import guru.springframework.demo.services.GreetingServiceImpl;
+import guru.services.GreetingServiceImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

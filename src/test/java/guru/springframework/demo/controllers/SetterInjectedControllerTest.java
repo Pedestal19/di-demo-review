@@ -1,6 +1,6 @@
 package guru.springframework.demo.controllers;
 
-import guru.springframework.demo.services.GreetingServiceImpl;
+import guru.services.GreetingServiceImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -26,6 +26,7 @@ public class SetterInjectedControllerTest {
 
     @Test
     public void testGreeting() throws Exception{
+//        assertEquals(GreetingServiceImpl.HELLO_GURUS, setterInjectedController.sayHello());
         assertEquals(GreetingServiceImpl.HELLO_GURUS, setterInjectedController.sayHello());
     }
 }
