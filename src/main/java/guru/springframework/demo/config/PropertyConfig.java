@@ -62,5 +62,5 @@ public class PropertyConfig {
         return fakeHosanna;
     }
 
-    
+
 }

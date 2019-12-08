@@ -1,0 +1,40 @@
+# this is a comment
+
+name: Hosanna
+
+names: #Comment
+    - Hosanna
+    - Moninseh
+    - Gabe-Oji
+
+pound_sign: "#"
+
+
+book:
+    author: Joe Buck
+    publisher: random house
+
+truth: yes
+
+another_truth: True
+
+more_true: true
+
+false: no #No, false, False
+
+string_val: "This is it's quote"
+
+colon_string: "my courses: one two three"
+
+include_new_lines: |
+  asdf asdf kjbkjf
+  jkksd uhkjhds kjhkjds
+  bnmbcxm mnbcnm bnmbmncx
+
+ignore_new_lines: >
+  this is
+  just one long
+  string
+
+
+
