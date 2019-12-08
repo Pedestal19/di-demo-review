@@ -2,6 +2,7 @@ package guru.springframework.demo;
 
 import guru.springframework.demo.controllers.MyController;
 import guru.springframework.demo.examplebeans.FakeDataSource;
+import guru.springframework.demo.examplebeans.FakeHosanna;
 import guru.springframework.demo.examplebeans.FakeJmsBroker;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -14,6 +15,7 @@ public class DiDemoReviewApplication {
      ApplicationContext ctx = SpringApplication.run(DiDemoReviewApplication.class, args);
 
         MyController controller = (MyController) ctx.getBean("myController");
+
 /*
 
         System.out.println(controller.hello());
@@ -29,6 +31,10 @@ public class DiDemoReviewApplication {
         FakeJmsBroker fakeJmsBroker = (FakeJmsBroker) ctx.getBean(FakeJmsBroker.class);
 
         System.out.println(fakeJmsBroker.getUsername());
+
+        FakeHosanna fakeHosanna = (FakeHosanna) ctx.getBean(FakeHosanna.class);
+
+        System.out.println(fakeHosanna.getName());
 
     }
 
